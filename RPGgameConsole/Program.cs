@@ -10,6 +10,9 @@ namespace RPGgameConsole
     {
         static void Main(string[] args)
         {
+            string name = "Tonya";
+            Console.WriteLine($"Hello {name}!");
+            Console.ReadKey(); //ждет команду чтобы закрыть консоль
         }
     }
 }
